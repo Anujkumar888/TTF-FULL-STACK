@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body >
+   <div> <P align="center"><font size="29" color="blue" >STUDENT REGISTRATION FORM</font></P></div>
+    
+    <form>
+        
+         <label>FIRST NAME : </label>
+         <input name="name" type="text">
+         <lable>(max 30 characters a-z and A-Z)</lable>
+    <br>
+         <lable > LAST NAME :</lable>
+         <input name="last" type="text">
+         <lable>(max 30 characters a-z and A-Z)</lable>
+    <br>
+         <lable>DATE OF BIRTH :</lable>
+         <input name ="date" type="date">
+    <br>
+         <lable for ="email">EMAIL ID:</lable>
+         <input name ="email" type="email">
+    <br>
+         <lable for="mobile">MOBILE NUMBER :</lable>
+        <input name="mobile" type="number">
+        <lable>(10 digit number)</lable>
+    <br>
+         <lable for="gender" >GENDER</lable>
+         
+         <lable>MALE</lable>
+         <input type="radio" id="male" name="gender">
+         <lable>FEMALE</lable>
+         <input type="radio" id="female" name="gender"> 
+    <br>
+         <lable for="add"> ADDRESS :</lable>
+         <textarea rows="10" cols="40"></textarea>
+    <br>
+         <lable for="city"> CITY :</lable>
+         <input name="city" type="text">
+         <lable>(max 30 characters a-z and A-Z)</lable>
+        
+          <br>  <lable for="PIN"> PIN CODE :</lable>
+            <input name="PIN" type="text">
+            <lable>(6 digit number)</lable>
+        
+           <br> <lable for="state"> STATE :</lable>
+            <input name="state" type="text">
+            <lable>(max 30 characters a-z and A-Z)</lable>
+    <br>   
+         <lable for="COUNTRY">COUNTRY:</lable>
+            <input name="COUNTRY" type="text" placeholder="india">
+         
+     <br>  
+            <lable>HOBBIES</lable>
+            <lable>Driving</lable>
+            <input type="checkbox">
+            <lable>singing</lable>
+            <input type="checkbox">
+            <lable>Dancing</lable>
+            <input type="checkbox">
+            <lable>sketeching</lable>
+            <input type="checkbox">
+            <br>
+            <lable>others</lable>
+            <input type="checkbox">
+            <input type="text">
+       
+          <br>  <lable>QUALIFICATION</lable>
+           <br> <table>
+                <thead>
+                    <tr>
+                        <th>Sl.No.</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Class x</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>class XII</td> <td><input type="text"></td>
+                         <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td> <td><input type="text"></td>
+                         <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td> <td><input type="text"></td>
+                         <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>(10 char max)</td>
+                        <td>(upto 2 deciemal)</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+      
+           <br> <lable>COURSE <BR>APPLIED FOR
+            </lable>
+            <lable>BCA</lable>
+            <input type="radio">
+            <lable>B.COM</lable>
+            <input type="radio">
+            <lable>B.SC</lable>
+            <input type="radio">
+            <lable>B.A</lable>
+            <input type="radio">
+        </form>
+        <button>SUBMIT</button>
+        <button>RESET</button>
+        
+    </form>
+    
+</body>
+</html>
